@@ -4,6 +4,6 @@ import SwiftUI
 /// 60 cm in front of you, so portions can be compared with real objects.
 struct TableImmersiveView: View {
     var body: some View {
-        PlateRealityView(origin: [0, 0.8, -0.6])
+        PlateRealityView(origin: [0, 1.0, -0.6])
     }
 }
