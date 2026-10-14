@@ -1,8 +1,9 @@
-//
-//  TableImmersiveView.swift
-//  PortionCoach
-//
-//  Created by IM Student on 2026-10-14.
-//
+import SwiftUI
 
-import Foundation
+/// Mixed immersive space: the plate at life size, about table height,
+/// 60 cm in front of you, so portions can be compared with real objects.
+struct TableImmersiveView: View {
+    var body: some View {
+        PlateRealityView(origin: [0, 0.8, -0.6])
+    }
+}
