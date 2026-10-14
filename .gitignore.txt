@@ -1,0 +1,10 @@
+# Xcode user-specific files (window layout, personal schemes)
+xcuserdata/
+*.xcuserstate
+
+# Build output
+build/
+DerivedData/
+
+# macOS
+.DS_Store
